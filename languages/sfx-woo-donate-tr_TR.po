@@ -1,0 +1,340 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SFX Woo Donate\n"
+"POT-Creation-Date: 2020-11-15 13:26+0300\n"
+"PO-Revision-Date: 2020-11-15 13:26+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sfx-product-donate.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: controller/woo.php:12
+msgid "Donated"
+msgstr "Bağışlandı"
+
+#: controller/woo.php:25
+msgid "Thank you for your donation"
+msgstr "Bağışınız için teşekkür ederiz"
+
+#: controller/woo.php:40
+msgid "NO"
+msgstr "HAYIR"
+
+#: core/__xt__/_menu_items.php:4 widgets/sfxplugin.php:20
+msgid "SFX Plugin"
+msgstr ""
+
+#: core/__xt__/_menu_items.php:47
+msgid "View All"
+msgstr ""
+
+#: core/__xt__/_menu_items.php:53
+msgid "Admins"
+msgstr ""
+
+#: core/__xt__/_menu_items.php:77
+msgid "Select All"
+msgstr ""
+
+#: core/__xt__/_menu_items.php:80
+msgid "Add to Menu"
+msgstr ""
+
+#: core/__xt__/menu_items_2.php:10 core/__xt__/menu_items_2.php:26
+#: core/__xt__/menu_items_2.php:29 core/menu_elements.php:219
+#: core/menu_items.php:10 core/menu_items.php:26 core/menu_items.php:29
+msgid "Sfxplugin"
+msgstr ""
+
+#: core/menu_elements.php:115
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: core/menu_elements.php:119
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: core/menu_elements.php:143
+msgid "Move up"
+msgstr ""
+
+#: core/menu_elements.php:156
+msgid "Move down"
+msgstr ""
+
+#: core/menu_elements.php:158 core/menu_elements.php:160
+msgid "Edit Menu Item"
+msgstr ""
+
+#: core/menu_elements.php:169
+msgid "URL"
+msgstr ""
+
+#: core/menu_elements.php:176
+msgid "Navigation Label"
+msgstr ""
+
+#: core/menu_elements.php:182
+msgid "Title Attribute"
+msgstr ""
+
+#: core/menu_elements.php:189
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: core/menu_elements.php:194
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: core/menu_elements.php:200
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: core/menu_elements.php:206
+msgid "Description"
+msgstr ""
+
+#: core/menu_elements.php:209
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: core/menu_elements.php:231
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: core/menu_elements.php:244
+msgid "Remove"
+msgstr ""
+
+#: core/menu_elements.php:245
+msgid "Cancel"
+msgstr ""
+
+#: pro/views/admin/pro.php:1
+#, php-format
+msgid "Pro settings <span class=\"sfxmuted\">%1$s</span>"
+msgstr ""
+
+#: pro/views/admin/pro.php:20
+msgid "Button location"
+msgstr "Düğme konumu"
+
+#: pro/views/admin/pro.php:25
+msgid "Single product summary"
+msgstr "Tek ürün özeti"
+
+#: pro/views/admin/pro.php:26
+msgid "Before add to cart form"
+msgstr "Sepete Ekle formundan önce"
+
+#: pro/views/admin/pro.php:27
+msgid "Before variations form"
+msgstr "Varyasyonlar oluşmadan önce"
+
+#: pro/views/admin/pro.php:28
+msgid "Before add to cart button"
+msgstr "Sepete Ekle düğmesinden önce"
+
+#: pro/views/admin/pro.php:29
+msgid "Before single variation"
+msgstr "Tek varyasyondan önce"
+
+#: pro/views/admin/pro.php:30
+msgid "Single variation"
+msgstr "Tek varyasyon"
+
+#: pro/views/admin/pro.php:31
+msgid "After single variation"
+msgstr "Tek varyasyondan sonra"
+
+#: pro/views/admin/pro.php:32
+msgid "After add to cart button"
+msgstr "Sepete Ekle butonundan sonra"
+
+#: pro/views/admin/pro.php:33
+msgid "After variations form"
+msgstr "Varyasyonlar oluştuktan sonra"
+
+#: pro/views/admin/pro.php:34
+msgid "After add to cart form"
+msgstr "Sepete Ekle formundan sonra"
+
+#: pro/views/admin/pro.php:35
+msgid "Product meta start"
+msgstr "Ürün meta başlangıcı"
+
+#: pro/views/admin/pro.php:36
+msgid "Product meta end"
+msgstr "Ürün meta sonu"
+
+#: pro/views/admin/pro.php:37
+msgid "Share"
+msgstr "Paylaş"
+
+#: pro/views/admin/pro.php:59 views/admin/index.php:51
+#: views/admin/settings.php:91 views/admin/test.php:173
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: views/__xt__/settings.php:1 views/admin/settings.php:1
+#, php-format
+msgid "Settings <span class=\"sfxmuted\">%1$s</span>"
+msgstr "Ayarlar <span class=\"sfxmuted\">%1$s</span>"
+
+#: views/__xt__/settings.php:14 widgets/sfxplugin.php:43
+msgid "Test"
+msgstr ""
+
+#: views/admin/index.php:1
+#, php-format
+msgid "Admin panel <span class=\"sfxmuted\">%1$s</span>"
+msgstr "Yönetim paneli <span class=\"sfxmuted\">%1$s</span>"
+
+#: views/admin/index.php:36
+msgid "Add donate area;"
+msgstr "Bağış alanı ekleyin;"
+
+#: views/admin/index.php:38
+msgid "Add area..."
+msgstr "Alan ekleyin..."
+
+#: views/admin/index.php:38
+msgid "+ Add"
+msgstr "+ Ekle"
+
+#: views/admin/settings.php:19
+msgid "I want to forgive"
+msgstr "Bağışlamak istiyorum"
+
+#: views/admin/settings.php:29
+msgid "Please select donation place"
+msgstr "Lütfen bağış yeri seçin"
+
+#: views/admin/settings.php:39
+msgid "Donate button"
+msgstr "Bağış butonu"
+
+#: views/admin/settings.php:50
+msgid "Popup image"
+msgstr "Açılır  pencere resim"
+
+#: views/admin/settings.php:76 views/admin/test.php:99
+msgid "Select Image"
+msgstr "Resim seç"
+
+#: views/admin/settings.php:76 views/admin/test.php:99 views/admin/test.php:129
+msgid "Add"
+msgstr "Ekle"
+
+#: views/admin/settings.php:76 views/admin/test.php:99
+msgid "Add Image"
+msgstr "Resim ekle"
+
+#: views/admin/test.php:1
+#, php-format
+msgid "Test <span class=\"sfxmuted\">%1$s</span>"
+msgstr ""
+
+#: views/admin/test.php:19
+msgid "Text"
+msgstr ""
+
+#: views/admin/test.php:27
+msgid "Number"
+msgstr ""
+
+#: views/admin/test.php:35
+msgid "Textarea"
+msgstr ""
+
+#: views/admin/test.php:44
+msgid "Select"
+msgstr ""
+
+#: views/admin/test.php:48
+msgid "aaa"
+msgstr ""
+
+#: views/admin/test.php:49
+msgid "bbb"
+msgstr ""
+
+#: views/admin/test.php:63
+msgid "Editor"
+msgstr ""
+
+#: views/admin/test.php:73
+msgid "Image"
+msgstr ""
+
+#: views/admin/test.php:107
+msgid "Images"
+msgstr ""
+
+#: views/admin/test.php:129
+msgid "Select Images"
+msgstr ""
+
+#: views/admin/test.php:129
+msgid "Add Images"
+msgstr ""
+
+#: widgets/sfxplugin.php:18 widgets/sfxplugin.php:34
+msgid "SFX PLUGIN"
+msgstr ""
+
+#: widgets/sfxplugin.php:49
+msgid "Default Title"
+msgstr ""
+
+#: widgets/sfxplugin.php:52
+msgid "Title:"
+msgstr ""
+
+#: widgets/sfxplugin.php:56
+msgid "Test:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "SFX Woo Donate"
+msgstr "SFX Woo Bağışla"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://dogruwebtasarim.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "WooCommerce donate button."
+msgstr "WooCommerce ürünü bağışla butonu."
+
+#. Author of the plugin/theme
+msgid "Şafak Saraçoğlu"
+msgstr ""
+
+#~ msgid "Before single variatio"
+#~ msgstr "Tek varyasyondan önce"
+
+#~ msgid "Woo Donate"
+#~ msgstr "Woo Bağışla"
+
+#~ msgid "Settings"
+#~ msgstr "Ayarlar"

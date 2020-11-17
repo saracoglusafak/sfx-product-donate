@@ -1,0 +1,85 @@
+.sfxmuted {
+	color: #AAAAAA;
+	font-size: 75%;
+}
+
+.sfxbutton {
+	text-decoration: none !important;
+}
+
+#sfx-donationplace {
+	font-size: x-large;
+	margin-bottom: 5px;
+}
+
+#donate {
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+#sfx-popup-image {
+	width: 100%;
+	display: block;
+}
+
+.sfx-p20 {
+	padding: 20px;
+}
+
+.sfxmodal {
+	display: none;
+	position: fixed;
+	width: 50vw;
+	/* top: calc(30%); */
+	top: calc(10%);
+	left: calc(50% - 25vw);
+	z-index: 999999999999999999;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	/* padding: 20px; */
+	text-align: center;
+	max-height: 80%;
+	overflow-y: auto;
+}
+
+.sfxmodal-wrap {
+	display: none;
+	background-color: #000000de;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 99999999999999998;
+
+}
+
+
+
+@media (min-width: 991.98px) {
+	.sfxmodal {
+		width: 40vw;
+		left: calc(50% - 20vw);
+	}
+
+}
+
+
+
+@media (max-width: 767.98px) {
+	.sfxmodal {
+		width: 80vw;
+		left: 10vw;
+	}
+}
+
+
+
+
+/* 
+@media (max-width: 575.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 1200px) {}
+ */
