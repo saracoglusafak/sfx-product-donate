@@ -8,9 +8,6 @@ if (!is_callable($_GET["process"])) {
 }
 
 
-// require_once "../../../../wp-load.php";
-// require_once "../core/cons.php";
-
 
 // funtions
 
@@ -52,4 +49,5 @@ function test()
 {
 	echo "-----test-----";
 }
-echo $_GET["process"]();
+$process = sanitize_text_field($_GET["process"]);
+echo $process();

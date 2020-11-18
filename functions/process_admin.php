@@ -8,8 +8,6 @@ if (!is_callable($_GET["process"])) {
 }
 
 
-// require_once "../../../../wp-load.php";
-// require_once "../core/cons.php";
 if (!$wp_get_current_user = wp_get_current_user()) {
 	exit;
 }
@@ -44,4 +42,5 @@ function test()
 {
 	echo "-----test-----";
 }
-echo $_GET["process"]();
+$process = sanitize_text_field($_GET["process"]);
+echo $process();

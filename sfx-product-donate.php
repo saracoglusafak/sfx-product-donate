@@ -11,16 +11,6 @@
  * Domain Path: /languages
  */
 
-/* 
-add_action('init', function () {
-	if (!session_id()) {
-		session_start();
-	}
-}, 1);
- */
-
-
-
 
 
 
