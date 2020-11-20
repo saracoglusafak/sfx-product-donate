@@ -12,7 +12,10 @@ register_setting(sfxdonate_plugin_id . '-group', "images");
 if (isset($_POST["option_page"]) && $_POST["option_page"] == sfxdonate_plugin_id . "-group") {
     // print_r(sanitize_post($_POST));
     // exit;
-    $sanitize_post = sanitize_post($_POST);
+    // $sanitize_post = sanitize_post($_POST);
+    $sanitize_post = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
+    
+    
     if (isset($sanitize_post["reset"])) {
         register_setting($sanitize_post["option_page"], "");
         foreach ($sanitize_post as $k => $v) {

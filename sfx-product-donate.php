@@ -39,7 +39,7 @@ require_once (__DIR__) . "/core/configs.php";
 
 
 
-require_once sfxdonate_plugin_core . 'menu_items.php';
+// require_once sfxdonate_plugin_core . 'menu_items.php';
 // require_once sfxdonate_plugin_core . 'menu_elements.php';
 
 /* 
