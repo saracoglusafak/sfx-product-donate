@@ -1,7 +1,7 @@
 === Sfx product donate ===
 Contributors: safaksaracoglu2012
 Donate link: https://dogruwebtasarim.com
-Tags: woo, donate
+Tags: woo, donate, woo donate, woo product donate
 Requires at least: 5.0
 Tested up to: 5.5.3
 Requires PHP: 7.2
