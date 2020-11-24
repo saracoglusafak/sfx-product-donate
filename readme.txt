@@ -12,3 +12,15 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
 
 WooCommerce product donate plugin.
+
+== Screenshots ==
+
+1. Cart step 1
+2. Cart step 2 (Popup & Select)
+3. Admin panel (Donate areas)
+4. Settings (Fields)
+5. Chekout page
+6. Admin menu
+7. Admin order view
+8. Pro settings
+9. User order page (Thanks message)
